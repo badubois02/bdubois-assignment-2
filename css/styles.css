@@ -1,0 +1,590 @@
+
+
+/*Colors
+
+Off-white: #fcf2dd;
+Grey: #2c3137;
+Black: #2c3137;
+Blue: #60b9ed;
+Learn and Explore text:
+#343b41;
+*/
+
+/*Typography*/
+
+/*lineheight*/
+
+
+	
+
+
+h1{
+	font-family:'Milkshake';
+	font-size: 2rem;
+	/*32px*/
+}
+
+h1 a{
+	text-decoration: none;
+	color: #fcf2dd;
+}
+
+li a{
+	font-family: 'B612', sans-serif;
+	text-decoration: none;
+	font-size: 1rem;
+	/*16px*/
+}
+
+nav ul li a {
+		color: #fcf2dd;
+}
+
+.two-buttons a {
+	font-family: 'B612', sans-serif;
+	text-decoration: none;
+	color: #fcf2dd;
+	font-size: 1rem;
+	/*16px*/
+}
+
+h2 {
+	font-family:'Milkshake';
+	font-size: 2.4375rem;
+	/*39px*/
+	color: #2c3137;
+}
+
+p {
+	font-family: 'B612', sans-serif;
+	font-size: 1rem;
+	/*16px*/
+	color: #2c3137;
+	line-height: 1.25rem;
+
+}
+
+h3 {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 1rem;
+	/*16px*/
+	color: #60b9ed;
+	/*line-height: 1.25rem;*/
+}
+
+h4 {
+	font-family:'Milkshake';
+	font-size: 1.875rem;
+	/*30px*/
+	color: #fcf2dd;
+	/*line-height: 1.25rem;*/
+}
+
+.article-button a{
+	font-family: 'B612', sans-serif;
+	text-decoration: none;
+	color: #fcf2dd;
+	font-size: 1rem;
+	/*16px*/
+}
+
+
+/*"See the guides" part*/
+.quick-ref div a {
+	font-family: 'B612', sans-serif;
+	text-decoration: none;
+	color: #2c3137;
+	font-size: 1rem;
+	/*16px*/
+}
+
+footer div p {
+	font-family: 'Arial Black', sans-serif;
+	font-size: 4.375rem;
+	/*70px*/
+	color: #343b41;
+}
+
+footer p {
+	font-family: 'B612', sans-serif;
+	text-decoration: none;
+	color: #fcf2dd;
+	font-size: 0.875rem;
+	/*14px*/
+}
+
+body {
+	background-color: #fcf2dd;
+}
+
+/*Flexing the menu*/
+
+header .flex {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+header {
+	background-color: #2c3137;
+	padding: 1.125rem 1.625rem;
+	/*18px 26px*/
+}
+
+/*Hamburger icon*/
+.menu-icon span {
+	display: block;
+	background-color: #f5e7cb;
+	width: 1.3125rem;
+	/*21px*/
+	height: 0.3125rem;
+	/*5px*/
+	border-radius: 6.25rem;
+	margin-bottom: 0.375rem;
+	position: relative;
+	transition: all 0.4s ease-in-out;
+}
+
+/* step 1 - style the li and 
+a tags before hiding them */
+
+svg {
+	width: 1.25rem;
+	/*20px*/
+}
+
+/*hr in dropdown*/
+.dropdown-hr {
+	color: #fcf2dd;
+	margin-bottom: 1.25rem;
+	/*20px*/
+}
+
+/*Sign in and Subscribe*/
+
+.two-buttons {
+	margin: 2.25rem 0;
+}
+
+.two-buttons a {
+	border: 0.0125rem solid #fcf2dd;
+	padding: 0.75rem 0.875rem;
+	/*12px 14px*/
+	/*margin-top: 1.25rem;*/
+	/*20px 20px*/
+	
+}
+
+.dropdown li {
+	margin: 2rem 0;
+	/*24px*/
+}
+
+.dropdown li a {
+	display: flex;
+	align-items: center;
+}
+
+/*Hiding the dropdown*/
+
+/*.dropdown {
+	visibility: hidden;
+	max-height: 0;
+	transition: all 0.4s ease-in-out;
+}
+*/
+/*Show dropdown on hover*/
+
+
+nav {
+	position: absolute;
+	background-color: #2c3137;
+	left: 0;
+	
+	width: 100vw;
+	max-height: 0;
+	overflow: hidden;
+	transition: all 0.4s ease-in-out;
+}
+
+.is-active {
+	max-height: 100vh;
+	background-color: #2c3137;
+}
+
+/*End of nav section*/
+
+/*For Designers and Developers Scetion*/
+
+/*background image*/
+.banner {
+	background-image: linear-gradient(to bottom, rgba(0,0,0,0), rgba(0,0,0,0.5)),
+	url('../img/banner-back.jpg');
+	background-size: cover;
+	background-position: center top;
+}
+
+/*The overlay*/
+.banner-content {
+	background-color: rgba(44,49,55, 0.4);
+	/*the grey color, but in rgba*/
+	padding-top: 3rem;
+	/*48px*/
+}
+
+/*The "for Designers" box*/
+
+.banner-content div{
+	text-align: center;
+	align-items: center;
+	background-color: #fcf2dd;
+	margin: 1.125rem 1.125rem 0 1.125rem;
+	/*18px*/
+	padding:3.5rem 01.125rem;
+	/*56px 18px*/
+	/*height: 26.875rem;*/
+	/*430px*/
+}
+
+/*Banner hr*/
+.banner-content div hr {
+	width: 1.125rem;
+	/*18px*/
+}
+
+
+
+/*End of For Designers 
+and Developers Scetion*/
+
+/*"old school articles" section*/
+
+h4 {
+	margin-top: 0.75rem;
+	/*12px*/
+	margin-bottom: 2.625rem;
+	/*42px*/
+	line-height: 1.125rem
+	/*18px*/
+}
+
+.old-school {
+	background-color: #2c3137;
+	padding: 4.5rem 1rem;
+	/*72px 16px*/
+}
+
+/*changing the text color to white*/
+.old-school p, .article-button a {
+	color: #fcf2dd;
+}
+
+/*read article button*/
+.article-button {
+	margin-top: 2rem;
+	/*32px*/
+	width: 8.75rem;
+	text-align: center;
+	/*140px*/
+}
+
+/* End of 
+"old school articles" section*/
+
+/*quick references section*/
+
+.quick-ref {
+	background-color: #fcf2dd;
+	margin-top: 6.6875rem;
+	/*107px*/
+
+}
+
+/*Quick references box*/
+.quick-ref-box {
+	background-color: #2c3137;
+	padding: 1.3125rem;
+	/*10px*/
+	/*height: 6rem;*/
+	/*96px*/
+	/*display: inline-block;*/
+	margin: 0 1rem  4.625rem 1rem;
+	/*74px*/
+	
+	/*Overlay code*/
+	position: relative;
+	top: -10%;
+}
+
+.quick-ref-box h3 {
+	margin: 0;
+}
+
+.quick-ref-box h4 {
+	margin: 1.3125rem 0 0 0;
+
+	/*21px*/
+}
+
+/*Background image and overlap*/
+.pic-overlay {
+	background-image: url(../img/laptop-girl.jpg);
+	background-size: cover;
+	background-position: center top;
+	height: 23.75rem;
+	/*380px*/
+}
+
+/*List section*/
+.second-list {
+	margin: 1.25rem;
+	/*20px*/
+}
+
+.second-list li {
+	margin-bottom: 1rem;
+}
+
+/*"SEE THE GUIDES" button*/
+.quick-ref .article-button {
+	margin-left: 1rem;
+}
+
+.blue-hr{
+	color: #60b9ed;
+	border: 0.01rem solid #60b9ed;
+}
+
+/*End of quick references section*/
+
+/*Footer*/
+footer {
+	background-color: #2c3137;
+	text-align: right;
+	padding: 5rem 1rem;
+	/*80px*/
+}
+
+footer div {
+	/*height: 5.625rem;*/
+	/*90px*/
+}
+
+.learn-explore{
+	margin-bottom: 2.25rem;
+	/*36px*/
+}
+
+.learn-explore p:first-child {
+	margin-bottom: 3.5rem;
+	/*56px*/
+}
+/*End of Footer*/
+
+/*End of mobile content*/
+
+@media screen and (min-width: 1300px) {
+	
+	/*changing the font sizes*/
+	p {
+		font-size: 1.125rem;
+		/*18px*/
+	}
+
+	.two-buttons a {
+		font-size: 1.125rem;
+	}
+
+	footer div p {
+		font-size: 9.375rem;
+		/*150px*/
+	}
+
+	/*dropdown menu*/
+
+	/*Removing hamburger*/
+	.menu-icon span{
+		display: none;
+	}
+
+	header {
+		padding: 0 1.5625rem;;
+		/*padding: 1.125rem 1.5625rem;*/
+		/*18px 25px*/
+	}
+
+	/*Making the nav always visible*/
+	nav {
+		position: static;
+		overflow: visible;
+		max-height: 5rem;
+		/*80px*/
+		width: auto;
+	}
+
+	/*removing the hr*/
+	.dropdown-hr {
+		display: none;
+	}
+
+
+	.flex {
+		width: 7.5rem;
+		/*120px*/
+	}
+
+	/*Makes the nav content on the
+	same row as the Brackets logo*/
+	.wide-flex {
+		display: flex;
+		justify-content: space-between;
+	}
+	/*Makes sign in and subscribe 
+	on the same row*/
+
+	nav {
+		display: flex;
+		/*justify-content: space-between;*/
+	}
+
+	/*Flexes nav, and spacing between 
+	logo and the ul*/
+	.dropdown-nav {
+		display: flex;
+		/*justify-content: space-between;*/
+		/*margin-left: 10rem;*/
+		margin-right: 16.25rem;
+		/*260px*/
+	}
+
+	/*Spacing for the ul
+	with svgs*/
+	.dropdown-nav li:nth-child(2) {
+		margin-right: 2.625rem;
+		margin-left: 2.625rem;
+		/*42px*/
+	}
+
+	/*spacing for the two buttons*/
+	.two-buttons a:first-child {
+		margin-right: 1rem;
+	}
+
+	/*End of dropdown menu*/
+
+	/*"For Designers and Developers" section*/
+	.banner-content div {
+		width: 20rem;
+		/*496px*/
+		padding: 5.625rem 3.1875rem;
+		/*90px 51px*/
+		margin-left: 8rem;
+		position: relative;
+		top: 6.6875rem;
+		/*107x*/
+		/*z-index: 1;*/
+	}
+	/*End of"For Designers and Developers" section*/
+
+	/*Old School Articles section*/
+	.old-school {
+		/*overlap for section above*/
+		/*position: relative;*/
+		/*top: -6.625rem;*/
+		/*106px*/
+		/*z-index: -1;*/
+	}
+
+	.old-school-content {
+		margin-left: 41.875rem;
+		/*670px*/
+	}
+	/*End of Old School Articles section*/
+
+	/*Quick references section*/
+
+	.quick-ref div{
+		display: flex;
+		margin-bottom: 5rem;
+
+	}
+
+	.pic-overlay {
+		width: 35.5rem;
+		/*568px*/
+		height: 23.75rem;
+		/*380px*/
+	}
+
+	.quick-ref-box {
+		height: 4rem;
+		/*106px*/
+		width: 31rem;
+		/*496px*/
+
+		/*overlay*/
+		left: 10%;
+	}
+
+	/*text inside quick ref box*/
+	.quick-ref-box div {
+		display: flex;
+		flex-wrap: wrap;
+		width: 10rem;
+		/*background-color: black;*/
+
+	}
+
+	/*flexing the list and button*/
+	.quick-ref-content {
+		margin-top: 4rem;
+		margin-left: 5rem;
+		/*80px*/
+		display: flex;
+		flex-wrap: wrap;
+		width: 11.25rem;
+		/*180px*/
+		height: 10rem;
+		/*256px*/
+		
+	}
+
+	.quick-ref-content ul {
+		margin-bottom: 0;
+		line-height: 0.75rem;
+		/*12px*/
+	}
+
+	/*Button*/
+	.article-button{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+
+	.article-button hr{
+		width: 8rem;
+		/*180px*/ 
+	}
+
+	/*End of Quick references section*/
+
+	/*Footer*/
+	footer {
+		/*height: 37.5rem;*/
+		/*600px*/
+	}
+
+	.learn-explore {
+		margin-bottom: 7.875rem;
+		/*126px*/
+	}
+
+
+
+	.learn-explore p:first-child {
+		margin-bottom: 8rem;
+	}
+
+	/*End of footer*/
+}
